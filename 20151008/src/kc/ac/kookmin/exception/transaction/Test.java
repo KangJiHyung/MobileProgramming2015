@@ -9,6 +9,7 @@ class Bank {
 			tradeWithB();
 			tradeWithC();
 		} catch (Exception e) {
+			System.out.println("거래중 에러 발생, 전체 취소");
 			cancelA();
 			cancelB();
 			cancelC();
